@@ -52,7 +52,7 @@ def generate_and_save_embeddings(data_file, output_file):
         print(f"WARNING: Mismatch in dimensions!")
         print(f"Recipes: {len(df)}, Embeddings: {len(embeddings)}")
     else:
-        print("✓ The dimensions of recipes and embeddings match correctly")
+        print("The dimensions of recipes and embeddings match correctly")
 
 if __name__ == "__main__":
     generate_and_save_embeddings(PROCESSED_DATA_FILE, EMBEDDINGS_FILE)
